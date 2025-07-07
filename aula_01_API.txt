@@ -1,0 +1,17 @@
+SITE API:
+
+https://mapmjammzicuydebklgv.supabase.co
+
+CHAVE API:
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1hcG1qYW1temljdXlkZWJrbGd2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE5MDIxNjgsImV4cCI6MjA2NzQ3ODE2OH0.GDSwSumdiGOOPf1n6QedZIyE3bz7kySPHBMuGBmkZus
+
+senha supabase: Ostracism*74
+
+
+CREATE TABLE profiles (
+  id UUID PRIMARY KEY REFERENCES auth.users(id),
+  full_name VARCHAR (255),
+  role VARCHAR (50) DEFAULT "member",
+  update_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
