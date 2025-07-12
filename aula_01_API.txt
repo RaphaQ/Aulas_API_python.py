@@ -19,3 +19,11 @@ CREATE TABLE profiles (
   role VARCHAR (50) DEFAULT "member",
   update_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+Artigo de REST
+
+https://www.codecademy.com/article/what-is-rest
+
+ARTIGO DE CRUD
+
+https://www.codecademy.com/article/what-is-crud-explained
